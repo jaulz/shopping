@@ -66,7 +66,7 @@ node_modules/minipass-sized/.*
 !node_modules/minipass-sized/**/index.js
 
 # flyctl launch added from packages/server/.gitignore
-packages/server/**/dist
+packages/server/dist
 
 # flyctl launch added from packages/server/.yarn/cache/.gitignore
 packages/server/.yarn/cache/.gitignore

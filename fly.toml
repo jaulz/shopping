@@ -1,18 +1,14 @@
-# fly.toml file generated for shopping-demo on 2023-01-27T00:38:14+01:00
+# fly.toml file generated for shopping-demo on 2023-01-27T10:23:29+01:00
 
 app = "shopping-demo"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
-[build]
-  builder = "heroku/buildpacks:20"
-
 [env]
-  PORT = "8080"
 
 [experimental]
-  auto_rollback = true
+  auto_rollback = false
 
 [[services]]
   http_checks = []
