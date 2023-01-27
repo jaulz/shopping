@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "yarn workspaces foreach --interlaced --verbose run build",
-    "start": "yarn workspaces foreach --interlaced --parallel --verbose run start",
+    "start": "yarn workspaces foreach --interlaced --parallel --jobs unlimited --verbose run start",
     "dev": "yarn workspaces foreach --interlaced --parallel --verbose run dev",
     "format": "prettier --write ."
   },
