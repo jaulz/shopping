@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 25px 50px;
+  min-height: 100vh !important;
+}
+
+.footer {
+  text-align: center;
+}

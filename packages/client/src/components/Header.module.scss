@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      margin-right: 2rem;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .user {
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: #ffffff;
+
+      .avatar {
+        margin-left: 1rem;
+        background-color: #f56a00;
+        vertical-align: middle;
+      }
+    }
+  }
+}
